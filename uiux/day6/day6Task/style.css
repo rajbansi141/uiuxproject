@@ -1,0 +1,48 @@
+
+*{
+    margin: 0px;
+
+}
+
+.main-body{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    width: 85%;
+}
+.cont-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 2%;
+}
+.cont-nav-items,.icons{
+    display: flex;
+    list-style: none;
+    gap:1rem;
+    color: grey;
+    
+}
+.sidebar{
+    width:15vw;
+    height: 100vh;
+    background-color:#111C43;
+    border: 2px solid black;
+    overflow-y: scroll;
+}
+
+
+.top{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color:#C0AAFF;
+    padding: 2%;
+    
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}

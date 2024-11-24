@@ -1,0 +1,50 @@
+.box{
+    border: 2px solid red;
+    width: 500px;
+    position: relative;
+}
+.minibox{
+    height:150px;
+    width:150px;
+    border: 2px solid black;
+    font-size: 2rem;
+    text-align: center;
+    align-content: center;
+   
+
+}
+#static{
+    position: static;
+    margin-top: 3rem;
+}
+
+#relative{
+    background-color: lightcoral;
+    position: relative;
+    /* top: 4rem; */
+
+
+}
+
+#absolute{
+    position: absolute;
+    background-color: lightseagreen;
+    right: 0;
+    top: 0;
+    
+
+}
+#fixed{
+    position: fixed;
+    background-color: brown;
+    z-index: 4;
+    right: 0;
+    border-radius: 50%;
+
+}
+#sticky{
+    position: sticky;
+    background-color: darkolivegreen;
+    top: 4rem;
+    
+}

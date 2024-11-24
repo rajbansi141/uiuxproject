@@ -1,0 +1,24 @@
+.box{
+    /* background: url("../bird1.jpg"); */
+    background: url("https://cdn.pixabay.com/photo/2019/12/15/10/06/groom-4696727_1280.jpg");
+    height: 400px;
+    width: 400px;
+    /* background-repeat: no-repeat; */
+    background-color: orange;
+    /* background-size: contain; */
+
+    background-position: bottom;
+    /* background-size: 100px; */
+
+    /* background-blend-mode: darken; */
+    /* background-blend-mode: hue; */
+    background-blend-mode: darken;
+    /* background-blend-mode: saturation; */
+
+    filter:grayscale(100%);
+    /* filter:blur(2px); */
+/* 
+    filter: contrast(10); */
+
+    
+}
